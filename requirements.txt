@@ -3,4 +3,4 @@ easy-thumbnails==2.5
 django-crispy-forms==2.3
 djangoajax==2.3.7
 
-six==1.10.0
+six==1.12.0
