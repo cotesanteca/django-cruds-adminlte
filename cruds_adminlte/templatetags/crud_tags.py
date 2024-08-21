@@ -2,14 +2,14 @@
 from __future__ import unicode_literals
 
 import os.path
+import six
+from django.utils.html import escape
 
 from cruds_adminlte import utils
 from django import template
 
 from django.urls import (reverse, NoReverseMatch)  # django2.0
 from django.db import models
-from django.utils import six
-from django.utils.html import escape
 from django.utils.safestring import mark_safe
 
 register = template.Library()
